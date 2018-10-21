@@ -9,6 +9,9 @@
   "bin": {
     "group-by-date": "./index.js"
   },
+  "scripts": {
+    "release": "standard-version -i changelog.md"
+  },
   "jest": {
     "testMatch": [
       "**/tests.js"
@@ -25,6 +28,7 @@
     "eslint-config-relekang": "^1.0.0-rc.2",
     "eslint-plugin-prettier": "^3.0.0",
     "jest": "^23.6.0",
-    "prettier": "^1.14.3"
+    "prettier": "^1.14.3",
+    "standard-version": "^4.4.0"
   }
 }
