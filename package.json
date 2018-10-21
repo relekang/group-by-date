@@ -1,6 +1,6 @@
 {
   "name": "@relekang/group-by-date",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0",
   "description": "CLI to group files in current directory into date based sub-directory",
   "main": "index.js",
   "repository": "git@github.com:relekang/group-by-date.git",
